@@ -13,4 +13,5 @@ test('should sort heroes', () => {
   ];
   const received = sortHealth(heroes);
   expect(received).toEqual(expected);
+  expect(received).not.toBe(expected);
 });
